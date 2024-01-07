@@ -46,6 +46,7 @@
     font-weight: 900;
 }
 
+
 /* holiday deals */
 .holi_deals{
     width: 80%;
@@ -91,5 +92,59 @@
     height: auto;
 }
 
+/* Mid night party style  */
 
+.mid_party{
+    width: 80%;
+    height: auto;
+    margin:50px auto;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("img/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px;
 
+}
+
+.mid_party .party_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mid_party .party_content .party_title .party_title_child h1{
+    margin-bottom: 24px;
+    max-width: 642px;
+    color: #FFF;
+    font-family: var(--Merriweather);
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 7.04px;
+}
+.mid_party .party_content .party_title .party_title_child p{
+    margin-bottom: 48px;
+    max-width: 642px;
+    color: #e8e6e6;
+    font-family: var(--inter_font);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.mid_party .party_content .party_title .join_Now button{
+    background: none;
+    border: none;
+    color: #FFF;
+    font-family: var(--inter_font);
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+.mid_party .party_content .party_img img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
