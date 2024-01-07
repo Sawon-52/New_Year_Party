@@ -1,0 +1,95 @@
+:root{
+    --inter_font:'Inter', sans-serif;
+    --Merriweather:'Merriweather', serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.banner{
+    width: 80%;
+    height: 600px;
+    margin:50px auto;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("img/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner .banner_content h3{
+    color: #FFF;
+    font-family: var(--Merriweather);
+    font-size: 32px;
+    font-weight: 400;
+}
+
+
+.banner .banner_content h1{
+    color: #FFF;
+    text-align: center;
+    font-family: var(--Merriweather);
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* holiday deals */
+.holi_deals{
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.holi_deals .deals_content .deals_title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.holi_deals .deals_content .deals_title h1{
+    color: #F00;
+    font-family: var(--inter_font);
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.holi_deals .deals_content .deals_title h4{
+    color: #F00;
+    font-family: var(--inter_font);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+
+}
+
+.holi_deals .deals_content .deals_title h2{
+    color: #070211;
+    font-family: var(--inter_font);
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.holi_deals .deals_content .image img{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+
