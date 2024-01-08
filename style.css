@@ -277,6 +277,80 @@
     max-width: 140px;
     min-height: 140px;
 }
+/* holiday section */
+.holiday{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 120px;
+
+}
+.holiday .holi_title{
+    text-align: center;
+}
+.holiday .holi_title h4{
+    color: #070211;
+    font-family: var(--inter_font);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 28px;
+
+}
+.holiday .holi_title h1{
+    color: #070211;
+    font-family: var(--Merriweather);
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+.holiday .holi_title h1 span{
+    color: #F00;
+    text-align: center;
+    font-family: var(--Merriweather);
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+.holiday .holi_title p{
+    max-width: 800px;
+    margin: 0 auto;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: var(--inter_font);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.holiday .holi_image_container{
+    width: 100%;
+    height: 665px;
+    border-radius: 16px;
+    background: url("img/Group\ 79.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 64px;
+}
+.holiday .holi_image_container .holi_image_offer{
+    display: flex;
+    justify-content: end;
+    
+}
+
+.holiday .holi_image_container .holi_image_offer img{
+    width: 480px;
+    height: 433px;
+     
+}
+
 
 /* gift style */
 
