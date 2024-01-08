@@ -287,6 +287,7 @@
 
 }
 
+
 .gift .gift_title h3{
     color: #F00;
     font-family: var(--inter_font);
@@ -318,6 +319,12 @@
     max-width: 380px;
     min-height: 400px;
     border-radius: 16px;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.gift .gift_img .row_1 img:hover,
+.gift .gift_img .row_2 img:hover{
+    opacity: 0.8;
 }
 
 .gift .gift_img .row_1,
