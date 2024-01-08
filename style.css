@@ -212,7 +212,6 @@
     width: 80%;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 80px;
@@ -325,5 +324,82 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+}
+
+/* News letter style */
+.newsletter{
+    width: 80%;
+    min-height: 616px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter .letter_content .letter_content_img{
+    display: flex;
+    justify-content: center;
+}
+
+.newsletter .letter_content img{
+    max-width: 150px;
+    min-height: 150px; 
+}
+
+.newsletter .letter_content h2{
+    color: #070211;
+    text-align: center;
+    font-family: var(--Merriweather);
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+
+.newsletter .letter_content p{
+    max-width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family:var(--inter_font);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 22px;
+    margin-bottom: 48px;
+}
+.newsletter .letter_content .letter_form .form_input input{
+    width: 648px;
+    height: 72px;
+    padding-left: 30px;
+    border: none;
+    outline: none;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+}
+.newsletter .letter_content .letter_form .form_input input::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+    font-family: var(--inter_font);
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.newsletter .letter_content .form_input{
+    display: flex;
+}
+
+.newsletter .letter_content .form_input button{
+    width: 210px;
+    height: 71px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: var(--inter_font);
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+
 }
 
