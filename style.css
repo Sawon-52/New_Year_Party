@@ -283,6 +283,7 @@
 .gift{
     width: 80%;
     margin: 0 auto;
+    margin-top: 120px;
 
 }
 
@@ -336,6 +337,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 120px;
 }
 .newsletter .letter_content .letter_content_img{
     display: flex;
@@ -402,4 +404,85 @@
     text-transform: capitalize;
 
 }
+
+/* footer */
+.footer{
+    width: 100%;
+    min-height: 609px;
+    background: #070211;
+    padding: 120px 0px;
+    margin-top: 120px;
+
+}
+.footer .footer_content{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.footer .footer_content .address {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+}
+.footer .footer_content .address .location p{
+    color: #FFF;
+    font-family: var(--inter_font);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer .footer_content .address .sevices .phone,
+.footer .footer_content .address .sevices .site {
+    display: flex;
+    gap: 10px;
+}
+
+.footer .footer_content .address .sevices .phone img,
+.footer .footer_content .address .sevices .site img {
+    max-width: 24px;
+    min-height: 24px;
+
+}
+
+.footer .footer_content .address .sevices .phone p,
+.footer .footer_content .address .sevices .site p{
+    color: #FFF;
+    font-family: var(--inter_font);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer .footer_content .line{
+    background: rgba(255, 255, 255, 0.15);
+    height: 1px;
+}
+
+.footer .footer_content .socila_logo{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 48px 0px;
+}
+
+.footer .footer_content .socila_logo img{
+    max-width: 64px;
+    min-height: 64px;
+}
+
+.footer .footer_content .rights{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.footer .footer_content .rights p{
+    color: #FFF;
+    font-family: var(--inter_font);
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
 
